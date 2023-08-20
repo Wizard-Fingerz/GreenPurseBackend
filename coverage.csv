@@ -1,0 +1,11 @@
+Name,Coverage
+.,0.8333
+GreenPurseBackEnd,1
+commerce,0.4983
+commerce.migrations,1
+fintech,1
+fintech.migrations,1
+payment,0.9896
+payment.migrations,1
+user,0.6087
+user.migrations,1
