@@ -33,7 +33,7 @@ SECRET_KEY = "django-insecure-%s=d*deu4%ln60z$6kh%@a6&+w#9isaapg_rm+gzx0=*0)^+e6
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
 
-ALLOWED_HOSTS = ['localhost', '127.0.0.1', '192.168.79.171', 'BankAuth.pythonanywhere.com']
+ALLOWED_HOSTS = ['localhost', '127.0.0.1', '192.168.79.171', 'JohnOlad44.pythonanywhere.com']
 
 CORS_ORIGIN_ALLOW_ALL = True
 
@@ -138,11 +138,10 @@ MEDIA_ROOT = os.path.join(BASE_DIR, 'media')
 DATABASES = {
     'default': {
         'ENGINE': 'django.db.backends.mysql',
-        'NAME': 'greenpursedb',
-        'HOST': 'localhost',
-        'PORT': '3306',
-        'USER': 'root',
-        'PASSWORD': 'root',
+        'NAME': 'JohnOlad44$default',
+        'HOST': 'JohnOlad44.mysql.pythonanywhere-services.com',
+        'USER': 'JohnOlad44',
+        'PASSWORD': 'root123.',
     }
 }
 
